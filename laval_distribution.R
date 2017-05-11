@@ -4,6 +4,8 @@ library(rmarkdown)
 library(RPostgreSQL) 
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
+
+# I think we want to set up a R package or function for the EML
 #data input from the website:
 
 input_data<-function(infile) {
